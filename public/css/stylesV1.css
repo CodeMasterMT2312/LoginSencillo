@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #00264d;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #00264d;
+    padding: 10px 0;
+    position: relative;
+}
+
+header .logo-img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    background-color: #fff;
+    color: #00264d;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px 0 0 5px;
+    margin-right: 10px; /* Agregado para separar del selector de idioma */
+}
+
+.search-bar select {
+    background-color: #fff;
+    color: #00264d;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 5px 5px 0;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo h1 {
+    font-size: 2.5em;
+    color: #ef352b; /* Color rojo para destacar el texto */
+    margin-bottom: 10px;
+}
+
+.logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #00264d; /* Fondo del menú */
+    padding: 10px 0;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #00264d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #ef352b; /* Color rojo para el texto del pie de página */
+}
+
+/* Estilos adicionales para el carrusel */
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ef352b; /* Color rojo para los iconos del carrusel */
+}
