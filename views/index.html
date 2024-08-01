@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="https://aulasvirtuales.epn.edu.ec/pluginfile.php/1/theme_adaptable/favicon/1713968435/icono-epn.png" />
+</head>
+<body>
+    <div class="login-box">
+        <center><img src="https://aulasvirtuales.epn.edu.ec/LOGO_EPN1.svg" id="logo" style="max-width: 160px;"></center>
+        <h1>Login</h1>
+        <form id="login-form" action="/login" method="post">
+			<div class="textbox">
+				<i class="fas fa-user"></i>
+				<input type="text" name="username" placeholder="Username" required>
+			</div>
+			<div class="textbox">
+				<i class="fas fa-lock"></i>
+				<input type="password" name="password" placeholder="Password" required>
+			</div>
+			<input class="btn" type="submit" value="Login">
+		</form>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
