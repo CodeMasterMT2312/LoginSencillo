@@ -7,6 +7,8 @@ const app = express();
 const port = process.env.PORT || 5002;
 
 // Configuración para servir archivos estáticos
+app.use(bodyParser.json({limit:'50mb'}));
+app.use(bodyParser.urlencoded({limit:'50mb',extended:true}))
 app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.urlencoded({ extended: true }));
 
